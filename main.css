@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.logo .logo-name {
+    font-weight: 800;
+    font-size: 29px;
+    color: #000;
+}
+
+.end-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.ul-item {
+    display: flex;
+    gap: 88px;
+}
+
+.ul-item .ul-link .ul-list {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+
+.light-btn {
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+
+    border-radius: 6px;
+    width: 131px;
+    background: #fb982f;
+    border: none;
+    height: 41px;
+}
+
+.dark-btn {
+    border: 1px solid #000;
+    border-radius: 6px;
+    width: 131px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #000;
+}
+
+.game-zone {
+    margin-top: 85px;
+}
+
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 77px;
+}
+
+.game-zone-desc {
+    font-weight: 500;
+    margin-bottom: 90px;
+    width: 426px;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+    border-radius: 40px;
+    width: 195px;
+    height: 53px;
+    border: none;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .logo a,
+.dark-mode .ul-list,
+.dark-mode p,
+.dark-mode h2,
+.dark-mode .ul-item .ul-link a {
+    color: white;
+}
+
+.dark-mode .light-btn {
+    background: #c4b5a5;
+    color: white;
+}
+
+.dark-mode .dark-btn {
+    background: #fa9021;
+    color: white;
+}
